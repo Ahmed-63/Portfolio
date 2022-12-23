@@ -1,0 +1,387 @@
+*
+    {
+        font-family: "Work Sans", sans-serif;
+    }
+body
+    {
+        background-image: url(img/starry-sky-2102269_1280.jpg);
+        color: white;
+        background-position-x: 49vw;
+    }
+.divlogoA
+    {
+        border: transparent wheat 0.1px;
+        border-radius: 15px 15px 15px;
+        padding: 0.1rem;      
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url(img/univers.jpg);
+        opacity: 70%;
+    }
+.logoA
+    {
+        width: 50px;
+        margin: 0px;
+        padding: 0px;
+    }
+span
+    {
+        font-weight: 900;
+        color: wheat;
+    }
+.menu
+    {
+        font-size: larger;
+        text-align: center;
+    }
+.menu :hover
+    {
+        transform: scale(1.1);
+        transition: calc(1.5s);
+    }
+ul li, a 
+    {
+        display: inline;
+        padding: 40px;
+        text-decoration: none;
+        list-style: none;
+        color: wheat;
+        font-size: 30px;
+    }
+a 
+    {
+        text-decoration: none;
+    }
+a:hover
+    {
+        color: gray;
+        text-decoration:overline;
+        
+    }
+.presentation
+    {
+        text-align: center;
+        color:white;
+        width: 100%;
+        font-weight: bold;
+        margin-top: 13vh;
+        margin-right: 5vw;
+        padding: 5vh;
+        text-align: justify;
+        
+    }
+h1
+    {
+        text-align: start;
+    }
+.divpresentation
+    {
+        display: flex;
+        margin-top: 15vh;
+        background-image: url(img/univers.jpg);
+        background-position-x: 150px;
+        background-position-y: 200px;
+        justify-content: space-around;
+        width: 100%;
+    }
+.photo
+    {
+        margin: 5vh;
+    }
+.photoimg
+    {
+        width: 50vh;
+        border: transparent 2px;
+        border-radius: 30px;
+        box-shadow: 5px 10px 10px rgb(73, 59, 0);
+        
+    }
+.competences
+    {
+        margin: 0;
+        flex-direction: column;
+        background-image: url(img/univers2.jpg);
+        width: 100%;
+        height: 100vh;
+    }
+.block1
+    {
+        display: flex;
+        justify-content: space-around;
+    
+    }
+.block2
+    {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+.h2
+    {
+        color: wheat;
+        text-align: center;
+        font-weight: bolder;
+        border: transparent 0.1px;
+        border-radius: 15px 15px 15px;
+        opacity: 50%;
+        font-size: 40px;
+        margin: 100px 0px 100px 0px;
+    }
+.imgfigure1
+    {
+        width: 8rem;
+        transition: all .2s ease-in-out;
+    }
+.imgfigure1:hover
+    {
+        transform: scale(1.3);
+        transition: all 0.5s;
+    }
+.text
+    {
+        text-align: center;
+        font-weight: bolder;
+    }
+.divprojets
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+.projets
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(0, 0, 0);
+    }
+.figprojets
+    {
+        text-align: center;
+        border-radius: 5rem 5rem 5rem;
+        padding: 2rem;
+        background-image: linear-gradient( 47.4deg,  rgba(10,113,255,1) 21.2%, rgba(0,0,0,1) 57% );
+        box-shadow: 0.5rem 0.7rem 1rem rgba(10,113,255,1);
+    }
+.divprojets :hover
+    {
+        transform: scale(1.1);
+        transition: calc(1.5s);
+    }
+.imgprojets
+    {
+        width: 15vw;
+    }
+.divprojets figcaption
+    {
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+    }
+.contact
+    {
+        background-image: url(img/northern-lights.jpg);
+        width: 100%;
+        height: 100%;
+    }
+.contact2
+    {
+        display: flex;
+    }
+.form
+    {
+        display: flex;
+        align-items:flex-start;
+        flex-direction: column;
+        border: gray solid 0.1rem;
+        border-radius: 2rem;
+        font-weight: 800; 
+        line-height: 2rem;
+        width:max-content;
+        padding: 2rem;
+        margin: 1rem;
+    }
+.form abbr
+    {
+        text-decoration: none;
+        color: rgb(152, 16, 16);
+    }
+.form h2
+    {
+        font-size: 1rem;
+    }
+.form p
+    {
+        color: gray;
+        font-weight: lighter;
+        font-size: 0.7rem;
+    }
+.form input
+    {
+        width: 15rem;
+        height: 2rem;
+    }
+.form textarea
+    {
+        width: 20rem;
+        height: 5rem;
+        margin-bottom: 2rem;
+    }
+.divcontact
+{
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.divcontact img
+    {
+        width: 6rem;
+    }
+footer 
+    {
+        color: gray;
+        font-size: 0.8rem;
+        text-align: center;
+        margin: 2rem;
+    }
+.afooter
+    {
+        color: gray;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+.containercontact
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.cv
+    {
+        width: 45%;
+        border: solid;
+        border-radius: 5%;
+        box-shadow: 0.3rem 0.3rem 0.3rem rgb(160, 132, 6);
+    }
+@media only screen and (max-width: 320px) 
+{
+    .divlogoA
+        {
+            width: 100%;
+        }
+    .menu :hover
+        {
+            transform:none;
+            transition: none;
+        }
+    ul li, a 
+        {
+            display: flex;
+            padding: 0.2rem;
+            text-decoration: none;
+            list-style: none;
+            color: wheat;
+            font-size: 1.5rem;
+        }
+    a 
+        {
+            text-decoration: none;
+        }
+    a:hover
+        {
+            color: gray;
+            text-decoration:none;
+        }
+    .divpresentation
+        {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    .presentation
+        {
+            margin: 0;
+            text-align: justify;
+            width: 100%;
+        }
+    .block
+        {
+            display: flex;
+            justify-content: space-around;
+            height: 100%;
+        }
+    .block1
+        {
+            flex-direction: column;
+        }
+    .block2
+        {
+            flex-direction: column;
+        }
+    .imgfigure1
+        {
+            width: 3rem;
+        }
+    .contact
+        {
+            width: auto;
+        }
+    .contact2
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    .form
+        {
+            width: auto;
+            margin: 0;
+        }
+    .form textarea
+        {
+            width: 15rem;
+        }
+    .h2
+        {
+            margin: 1rem;
+        }
+    .competences
+        {
+            height: 100%;
+            width: 100%;
+        }
+    .projets
+        {
+            height: 100%;
+            width: 100%;
+        }
+    .divprojets
+        {
+            display: inline;
+        }
+    .contact
+        {
+            width: 100%;
+        }
+    .divcontact img
+        {
+            width: 4rem;
+        }
+    .footer 
+        {
+            color: gray;
+            font-size: 0.6rem;
+            text-align: center;
+            width: 100%;
+        }
+    .afooter
+        {
+            color: gray;
+            font-size: 0.7rem;
+        }
+}
+
+
